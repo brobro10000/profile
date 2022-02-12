@@ -10,8 +10,6 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "heroku-postbuild": "cd client && npm install && npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "engines": {
     "node": "14.x"
